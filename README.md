@@ -35,3 +35,7 @@ Application de réservation des salles du campus.
    ```
 
    `docker compose down` supprime les conteneurs et, comme aucune persistance de base de données n'est configurée, les données qu'ils contiennent.
+
+## Equipe
+
+-> Killian(@LOGIN)
