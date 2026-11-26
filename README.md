@@ -36,6 +36,10 @@ Application de réservation des salles du campus.
 
    `docker compose down` supprime les conteneurs et, comme aucune persistance de base de données n'est configurée, les données qu'ils contiennent.
 
-## Equipe
+## Contribuer
 
+nommage des branches `type/numero-description`, Conventional Commits, une PR relue par ticket, fusionnée en _squash merge_, avec `Closes #n`, et les hooks installés par `npm install`
+
+
+## Equipe
 -> Killian(@LOGIN)
