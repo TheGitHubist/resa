@@ -4,8 +4,7 @@ types.setTypeParser(1114, (value) => value);
 
 const pool = new Pool({
   connectionString:
-    process.env.DATABASE_URL ||
-    "postgres://resa:Resa2026!Bdx@localhost:5432/resa",
+    process.env.DATABASE_URL,
 });
 
 pool.on("error", (err) => {
